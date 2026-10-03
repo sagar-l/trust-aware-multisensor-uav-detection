@@ -1,0 +1,245 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/* PAGE */
+
+.page-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+/* CARDS */
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card {
+    min-height: 145px;
+}
+
+
+/* STATUS */
+
+.status-active {
+    color: #198754;
+    font-weight: bold;
+}
+
+.status-warning {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.status-danger {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+
+/* SENSOR */
+
+.sensor-item {
+    margin-bottom: 20px;
+}
+
+.sensor-card {
+    min-height: 390px;
+}
+
+
+/* PROGRESS */
+
+.progress {
+    height: 22px;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+
+/* CHART */
+.chart-container {
+    position: relative;
+    height: 350px;
+}
+
+.chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/* TRUST BOX */
+
+.trust-box {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f1f3f5;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trust-box strong {
+    font-size: 30px;
+}
+
+
+/* CONFIDENCE */
+
+.confidence-box {
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: #e8f5e9;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confidence-box strong {
+    font-size: 35px;
+    color: #198754;
+}
+
+
+/* FUSION FLOW */
+
+.fusion-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.flow-box {
+    padding: 18px 25px;
+
+    background-color: #e9ecef;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.final-flow {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.arrow {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* FORMULA */
+
+.formula-box {
+    padding: 20px;
+
+    background-color: #212529;
+    color: white;
+
+    border-radius: 8px;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    font-family: monospace;
+}
+
+
+/* FAILURE RESULTS */
+
+.result-box {
+    padding: 20px;
+
+    background-color: #f8f9fa;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.result-box span {
+    display: block;
+    color: #6c757d;
+}
+
+.result-box strong {
+    display: block;
+
+    font-size: 30px;
+
+    margin-top: 5px;
+}
+
+
+/* RESULTS */
+
+.result-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 18px 5px;
+
+    border-bottom: 1px solid #dee2e6;
+}
+
+.result-row strong {
+    font-size: 22px;
+}
+
+
+/* TABLE */
+
+.table {
+    vertical-align: middle;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .navbar .nav-link {
+        display: block !important;
+        margin-bottom: 5px;
+    }
+
+    .fusion-flow {
+        flex-direction: column;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+}
